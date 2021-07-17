@@ -28,17 +28,17 @@
         <TextBlock Grid.Row="0" Text="Название"/>
         <TextBox Grid.Row="0" Grid.Column="1"
                  Text="{Binding En.Name, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
-        <TextBlock Grid.Row="1" Text="Стоимость"/>
+        <TextBlock Grid.Row="1" Text="Стоимость (руб)"/>
         <xctk:DoubleUpDown Grid.Row="1" Grid.Column="1" Value="{Binding En.Cost}"/>
-        <TextBlock Grid.Row="2" Text="Производительность"/>
+        <TextBlock Grid.Row="2" Text="Производительность (М³/ч)"/>
         <xctk:DoubleUpDown Grid.Row="2" Grid.Column="1" Value="{Binding En.characteristics.Perfomance}"/>
-        <TextBlock Grid.Row="3" Text="Мощность двигателя"/>
+        <TextBlock Grid.Row="3" Text="Мощность двигателя (КВт)"/>
         <xctk:DoubleUpDown Grid.Row="3" Grid.Column="1" Value="{Binding En.characteristics.EnginePower}"/>
-        <TextBlock Grid.Row="4" Text="Входной размер"/>
+        <TextBlock Grid.Row="4" Text="Входной размер (∅мм)"/>
         <xctk:DoubleUpDown Grid.Row="4" Grid.Column="1" Value="{Binding En.characteristics.InputSize}"/>
-        <TextBlock Grid.Row="5" Text="Выходной размер"/>
+        <TextBlock Grid.Row="5" Text="Выходной размер (∅мм)"/>
         <xctk:DoubleUpDown Grid.Row="5" Grid.Column="1" Value="{Binding En.characteristics.OutputSize}"/>
-        <TextBlock Grid.Row="6" Text="Вес"/>
+        <TextBlock Grid.Row="6" Text="Масса (кг)"/>
         <xctk:DoubleUpDown Grid.Row="6" Grid.Column="1" Value="{Binding En.characteristics.Weight}"/>
         <TextBlock Grid.Row="7" Text="Способ измельчения"/>
         <ComboBox Grid.Row="7" Grid.Column="1" DisplayMemberPath="Name"

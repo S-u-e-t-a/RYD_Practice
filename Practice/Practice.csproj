@@ -68,7 +68,9 @@
     <Reference Include="MySql.Data.EntityFramework, Version=8.0.24.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.EntityFramework.8.0.24\lib\net452\MySql.Data.EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -223,6 +225,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Отчёт по учебной практике Ермаков Трифонов Хлебников 494 группа.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -234,8 +237,8 @@
     <Content Include="practice.sql" />
     <Content Include="PracticeModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PracticeModel.edmx</DependentUpon>
       <LastGenOutput>PracticeModel.Context.cs</LastGenOutput>
+      <DependentUpon>PracticeModel.edmx</DependentUpon>
     </Content>
     <Content Include="PracticeModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

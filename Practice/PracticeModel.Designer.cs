@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\aspir\source\repos\Practice\Practice\PracticeModel.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\Даня\source\repos\RYD_Practice\Practice\PracticeModel.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

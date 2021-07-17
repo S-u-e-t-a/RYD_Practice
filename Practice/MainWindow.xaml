@@ -104,7 +104,7 @@
                                 </xctk:RangeSlider>
                             </StackPanel>
                         </Expander>
-                        <Expander Header="Мощность двигателя">
+                        <Expander Header="Мощность двигателя (КВт)">
                             <StackPanel Margin="10,10,10,10">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -136,7 +136,7 @@
                                 </xctk:RangeSlider>
                             </StackPanel>
                         </Expander>
-                        <Expander Header="Входной размер">
+                        <Expander Header="Входной размер (∅мм)">
                             <StackPanel Margin="10,10,10,10">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -169,7 +169,7 @@
                                 </xctk:RangeSlider>
                             </StackPanel>
                         </Expander>
-                        <Expander Header="Выходной размер">
+                        <Expander Header="Выходной размер (∅мм)">
                             <StackPanel Margin="10,10,10,10">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -202,7 +202,7 @@
                                 </xctk:RangeSlider>
                             </StackPanel>
                         </Expander>
-                        <Expander Header="Вес">
+                        <Expander Header="Масса">
                             <StackPanel Margin="10,10,10,10">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -283,7 +283,7 @@
                                                 Binding="{Binding characteristics.EnginePower}" />
                             <DataGridTextColumn Header="Производительность (М³/ч)"
                                                 Binding="{Binding characteristics.Perfomance}" />
-                            <DataGridTextColumn Header="Вес (кг)" Binding="{Binding characteristics.Weight}" />
+                            <DataGridTextColumn Header="Масса (кг)" Binding="{Binding characteristics.Weight}" />
                             <DataGridTextColumn Header="Входной размер (∅мм)" Binding="{Binding characteristics.InputSize}" />
 							<DataGridTextColumn Header="Выходной размер (∅мм)" Binding="{Binding characteristics.OutputSize}"/>
                             <DataGridTextColumn Header="Материалы" Binding="{Binding process, Converter={StaticResource ProccessConverter}}"/>
@@ -313,7 +313,7 @@
                                             Binding="{Binding characteristics.EnginePower}" />
 						<DataGridTextColumn Header="Производительность (М³/ч)"
                                             Binding="{Binding characteristics.Perfomance}" />
-                        <DataGridTextColumn Header="Вес (Кг)" Binding="{Binding characteristics.Weight}" />
+                        <DataGridTextColumn Header="Масса (Кг)" Binding="{Binding characteristics.Weight}" />
 						<DataGridTextColumn Header="Входной размер (∅мм)" Binding="{Binding characteristics.InputSize}" />
 						<DataGridTextColumn Header="Выходной размер (∅мм)" Binding="{Binding characteristics.OutputSize}" />
                         <DataGridTextColumn Header="Материалы" Binding="{Binding process, Converter={StaticResource ProccessConverter}}" />

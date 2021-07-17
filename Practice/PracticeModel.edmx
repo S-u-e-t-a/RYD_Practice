@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Хранилище practiceModel" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="Хранилище practiceModel" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="characteristics">
           <Key>
             <PropertyRef Name="CharacteristicsID" />
@@ -120,12 +120,12 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="Хранилище practiceModelContainer">
-          <EntitySet Name="characteristics" EntityType="Self.characteristics" Schema="" store:Type="Tables" />
-          <EntitySet Name="engineering" EntityType="Self.engineering" Schema="" store:Type="Tables" />
-          <EntitySet Name="engineeringtype" EntityType="Self.engineeringtype" Schema="" store:Type="Tables" />
-          <EntitySet Name="grindingmethod" EntityType="Self.grindingmethod" Schema="" store:Type="Tables" />
-          <EntitySet Name="material" EntityType="Self.material" Schema="" store:Type="Tables" />
-          <EntitySet Name="process" EntityType="Self.process" Schema="" store:Type="Tables" />
+          <EntitySet Name="characteristics" EntityType="Self.characteristics" Schema="practice" store:Type="Tables" />
+          <EntitySet Name="engineering" EntityType="Self.engineering" Schema="practice" store:Type="Tables" />
+          <EntitySet Name="engineeringtype" EntityType="Self.engineeringtype" Schema="practice" store:Type="Tables" />
+          <EntitySet Name="grindingmethod" EntityType="Self.grindingmethod" Schema="practice" store:Type="Tables" />
+          <EntitySet Name="material" EntityType="Self.material" Schema="practice" store:Type="Tables" />
+          <EntitySet Name="process" EntityType="Self.process" Schema="practice" store:Type="Tables" />
           <AssociationSet Name="Relationship1" Association="Self.Relationship1">
             <End Role="engineering" EntitySet="engineering" />
             <End Role="process" EntitySet="process" />
